@@ -6,7 +6,7 @@ output "sample" {
   value = var.sample
 }
 
-Variable "fruits" {}
+variable "fruits" {}
 
 output "fruits" {
   value = var.fruits
