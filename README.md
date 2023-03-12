@@ -4,4 +4,6 @@
 
 2. Terraform files end with .tf or tf.json
 
-3. 
+3. When using terraform apply, use terraform apply -auto-approve to avoid "do you want to perform these actions?"
+
+4. Same with terraform destroy (-auto-approve)
