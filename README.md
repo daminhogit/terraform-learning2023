@@ -7,3 +7,5 @@
 3. When using terraform apply, use terraform apply -auto-approve to avoid "do you want to perform these actions?"
 
 4. Same with terraform destroy (-auto-approve)
+
+5. Terraform supports only double quotes ""
