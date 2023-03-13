@@ -17,6 +17,6 @@ resource "aws_instance" "test1" {
   ami = each.value["ami"]
 instance_type = each.value["instance_type"]
 tags = {
-  Name = "instances-${each.key}"
+  Name = "instance-${each.key}"
 }
 }
